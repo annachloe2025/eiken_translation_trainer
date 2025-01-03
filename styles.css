@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* 全体のスタイル */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f7;
+    color: #2c3e50;
+    line-height: 1.8;
+}
+
+#container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px 10px;
+    border-radius: 12px 12px 0 0;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#json-display {
+    padding: 20px;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    margin-top: 20px;
+}
+
+#json-display h1 {
+    font-size: 24px;
+    color: #34495e;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    line-height: 2.2;
+}
+
+#json-display p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #34495e;
+    line-height: 1.8;
+}
+
+#json-display ul {
+    margin: 20px 0;
+    padding-left: 30px;
+    list-style-type: disc;
+}
+
+#json-display li {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #2980b9;
+}
+
+#json-display li strong {
+    color: #2c3e50;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #95a5a6;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 0 0 12px 12px;
+}
+
+/* アクセントと読みやすさ向上のための追加スタイル */
+#json-display .highlight {
+    background-color: #ecf9ff;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+#json-display ul li::marker {
+    font-size: 20px;
+    color: #3498db;
+}

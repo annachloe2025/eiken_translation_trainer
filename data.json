@@ -1,0 +1,51 @@
+{
+  "title": "公共のマナー",
+  "original_japanese": "公共のマナーの変化は、人と人との間の距離を広げている。つい最近まで、近所で知らない人と言葉を交わすことは礼儀だった。しかし、大都市では、こうした行為はもはや一般的ではなくなっている。このような行いを無礼だと考える人さえいる。",
+  "user_translation": "The changes in public manners widen the distance between humans. Bowing with strangers has been politeness by recentday. However, it is no longer common actions in big cities. There even are people who believe this is rude.",
+  "corrected_translation": "Changes in public manners have widened the distance between people. Until recently, exchanging words with strangers in the neighborhood was considered polite. However, such actions are no longer common in big cities. Some people even consider such behavior to be rude.",
+  "errors": [
+    {
+      "error": "The phrase 'widen the distance between humans' is unnatural and awkward.",
+      "reason": "『widen the distance between humans』は不自然で、人間関係を表現するには適切ではありません。『distance between people』の方が一般的です。"
+    },
+    {
+      "error": "'Bowing with strangers has been politeness by recentday' is grammatically incorrect and unclear.",
+      "reason": "『Bowing with strangers』は原文の『言葉を交わす』の誤訳です。また、『by recentday』は文法的に間違っており意味不明です。『Until recently』が正しい表現です。"
+    },
+    {
+      "error": "'it is no longer common actions in big cities' is grammatically incorrect.",
+      "reason": "『common actions』ではなく、『common』で十分です。『actions』を省くことでより自然になります。"
+    },
+    {
+      "error": "'There even are people who believe this is rude' lacks a natural flow.",
+      "reason": "『There even are』は語順が不自然で、『Some people even』の方が流暢な表現です。"
+    }
+  ],
+  "score": {
+    "value": 65,
+    "explanation": "スコアの説明"
+  },
+  "suggestions": [
+    "自然な表現を目指して、『人』は『people』と訳すようにしましょう。",
+    "『until recently』や『such actions are no longer』のような表現を使い、時制と自然な英語の流れを意識してください。",
+    "単語の正確な意味を理解するために、辞書を活用しましょう。例えば、『bowing』は日本語の『お辞儀』に近く、ここでは『exchanging words』が適切です。"
+  ],
+  "words": [
+    {
+      "word": "manners",
+      "definition": "Polite or acceptable behavior in society."
+    },
+    {
+      "word": "distance",
+      "definition": "The amount of space between two people or things."
+    },
+    {
+      "word": "polite",
+      "definition": "Behaving in a way that shows good manners and respect for others."
+    },
+    {
+      "word": "rude",
+      "definition": "Not showing respect for others; impolite."
+    }
+  ]
+}

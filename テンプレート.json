@@ -1,0 +1,24 @@
+{
+  "title":"タイトル",
+  "original_japanese": "ここに日本語の文章",
+  "user_translation": "ここにユーザーの英訳",
+  "corrected_translation": "ここに修正された英訳",
+  "errors": [
+    {
+      "error": "エラーの説明",
+      "reason": "日本語でエラーの理由"
+    }
+  ],
+  "score": {
+    "value": 0,
+    "explanation": "スコアの説明"
+  },
+  "suggestions": [
+    "改善のアドバイス",
+    "必要ならば複数"
+  ],
+  "words":[
+    "知っておくとよい単語やフレーズがあれば記入",
+    "複数ある場合は複数記入"
+  ]
+}
