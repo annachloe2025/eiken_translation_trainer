@@ -3,6 +3,7 @@
   "original_japanese": "ここに日本語の文章",
   "user_translation": "ここにユーザーの英訳",
   "corrected_translation": "ここに修正された英訳",
+  "best_answer":"最も理想的な英訳",
   "errors": [
     {
       "error": "エラーの説明",

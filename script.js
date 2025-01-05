@@ -42,7 +42,14 @@ document.addEventListener("DOMContentLoaded", () => {
         correctedTranslationElement.textContent = `修正された英訳: ${data.corrected_translation}`;
         container.appendChild(correctedTranslationElement);
 
-        // エラーと理由
+        // ベストな英訳
+    if (data.best_answer) {
+        const bestAnswerElement = document.createElement("p");
+        bestAnswerElement.textContent = `ベストな英訳: ${data.best_answer}`;
+        container.appendChild(bestAnswerElement);
+    }
+    
+    // エラーと理由
         if (data.errors && data.errors.length > 0) {
             const errorsElement = document.createElement("ul");
             errorsElement.textContent = "エラー一覧:";
