@@ -3,6 +3,9 @@ import json
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
 
+# Change current directory to the script's directory
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 def adjust_font_size(draw, text, font_path, max_width, max_height, initial_font_size):
     """
     指定された横幅と高さに収まるようにフォントサイズを調整する関数

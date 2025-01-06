@@ -2,6 +2,9 @@ import json
 from gtts import gTTS
 import os
 
+# Change current directory to the script's directory
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 def create_mp3_from_json(json_file_path):
     # Load JSON data
     with open(json_file_path, 'r', encoding='utf-8') as file:
